@@ -13,7 +13,7 @@ export const Portfolio: FunctionComponent<{}> = () => {
     const [show, setShow] = useState<boolean>(false);
 
     const data = [
-        { technologies: ["react & typescript"], title: "currículo", description: "Web site destinado ao currículo, no qual é apresentado o percurso educativo, as experiências, as habilidades e as competências.", link: "", video: "" },
+        { technologies: ["react & typescript"], title: "currículo", description: "Web site destinado ao currículo, no qual é apresentado o percurso educativo, as experiências, as habilidades e as competências.", link: "https://github.com/mariasbl/curriculo", video: "" },
         { technologies: ["react & typescript"], title: "task calendar", description: "Protótipo de uma plataforma para organização das tarefas de projetos.", link: "", video: "" },
         { technologies: ["angular"], title: "shop", description: "Protótipo de uma loja de roupa.", link: "https://github.com/mariasbl/My-Store", video: store },
         { technologies: ["react & typescript", "nodejs", "mongodb"], title: "modelshak", description: "Plataforma educativa destinada à gestão de projetos de modelagem. Desenvolvida no âmbito da Tese de Mestrado.", link: "", video: ""},
