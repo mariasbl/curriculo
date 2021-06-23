@@ -1,0 +1,92 @@
+.app {
+  max-width: 1280px;
+  padding: 1rem;
+  margin: 2rem auto 2rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  transition: all 1.0s;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  margin: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.color-black {
+  color: #4B5161 !important;
+}
+
+.element-width {
+  width: 215px;
+}
+
+.element-left {
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.element-right {
+  text-transform: uppercase;
+  color: #F6B94A;
+  font-size: 12px;
+  letter-spacing: 5px;
+  margin-left: 1rem;
+}
+
+.display-flex-start {
+  display: flex;
+  justify-content: flex-start;
+  margin: 1rem 1rem 1rem 0;
+}
+
+.display-flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.display-flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.display-flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.vl {
+  border-left: 6px solid #F6B94A;
+  color: #F6B94A;
+  max-height: 100%;
+}
+
+.mg {
+  margin: 2rem;
+}
+
+.mg-left {
+  margin-left: 2rem;
+}
+
+.pd-left {
+  padding-left: 15px;
+}
+
+.letter-spacing-none{
+  letter-spacing: normal;
+}

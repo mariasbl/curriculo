@@ -1,0 +1,38 @@
+.tab {
+    display: flex;
+    justify-content: space-around;
+    color: #F6B94A;
+    padding: 1.5rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 14px;
+}
+
+.tab-selected {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: #F6B94A;
+    padding: 1.5rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 14px;
+}
+
+.tab:hover {
+    background-color: #f6ba4a36;
+}
+
+.line {
+    border: 1px solid #F6B94A;
+    background-color: #F6B94A;
+    width: 50%;
+}
+
+.line-selected {
+    border: 1px solid white;
+    background-color: white;
+    width: 50%;
+}

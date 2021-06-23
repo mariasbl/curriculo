@@ -1,0 +1,46 @@
+.XLB{
+    margin:0.5rem;
+    width: 100%;
+    background-color: #4B5161;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.XLO{
+    margin: 0.5rem;
+    width: 100%;
+    background-color: #F6B94A;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.SMB{
+    margin: 0.5rem;
+    background-color: #4B5161;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.header-black {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color:  #F6B94A;
+    font-size: 16px;
+}
+
+.header-orange {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #4B5161;
+    font-size: 16px;
+}
+
+.line-black {
+    border: 1px solid #F6B94A;
+    background-color: #F6B94A;
+}
+
+.line-orange {
+    border: 1px solid #4B5161;
+    background-color: #4B5161;
+}
