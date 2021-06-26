@@ -8,7 +8,7 @@ import { ProgressBar } from "../components/ProgressBar/progressBar";
 
 export const Home: FunctionComponent<{}> = () => {
 
-    const data_01 = [{ left: "email", right: "mbc.silva.97@gmail.com" }, { left: "telemóvel", right: "+351917169954" }, { left: "localização", right: "carnaxide, portugal" }]
+    const data_01 = [{ left: "email", right: "mbc.silva.97@gmail.com" }, { left: "localização", right: "carnaxide, portugal" }]
     const data_02 = [{ left: "português", right: "nativo" }, { left: "inglês", right: "b1" }]
     const data_03 = [{ left: "criatividade", right: "90%" }, { left: "trabalho em equipa", right: "95%" }, { left: "flexibilidade / adaptabilidade", right: "90%" }, { left: "resiliência", right: "95%" }, { left: "comunicação", right: "85%" }];
     const data_04 = [{ left: "java", right: "80%" }, { left: "html/js/css", right: "95%" }, { left: "react", right: "95%" }, { left: "angular", right: "70%" }, { left: "nodejs", right: "90%" }, { left: "mongodb", right: "85%" }, { left: "redux", right: "80%" }];
